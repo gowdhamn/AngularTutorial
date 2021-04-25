@@ -1,0 +1,22 @@
+<div class="main-card mb-3 card">
+  <div class="card-header">
+      <div class="card-header-title font-size-lg text-capitalize font-weight-normal">Pass Data to Dialog</div>
+  </div>
+  <div class="card-body">
+      <div class="row">
+          <div class="col-md-4">
+              <form>
+                  <div class="form-group">
+                      <label>Enter Title</label>                      
+                      <input type="text" [formControl]="titleinputbox" class="form-control">                          
+                  </div>                     
+                  <div class="form-group">
+                    <button mat-raised-button (click)="openDialog()">Submit</button>
+                  </div>                  
+              </form>                 
+          </div>
+      </div>
+  </div>
+</div>
+
+ 

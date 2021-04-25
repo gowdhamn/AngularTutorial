@@ -22,7 +22,38 @@
                 <ng-template ngbPanelHeader>
                   <div class="vsm-header">Main Navigation</div>
                 </ng-template>
-              </ngb-panel>           
+              </ngb-panel>   
+              <ngb-panel id="forminput">
+                <ng-template ngbPanelHeader>
+                  <button ngbPanelToggle class="vsm-link">
+                    <i class="vsm-icon pe-7s-browser"></i>
+                    <span class="vsm-title">Form Controls</span>
+                    <i class="vsm-arrow"></i>
+                  </button>
+                </ng-template>
+                <ng-template ngbPanelContent>
+                  <div class="vsm-dropdown">
+                    <div class="vsm-list">
+                      <div class="vsm-item">
+                        <a routerLinkActive="active-item" routerLink="/readtextboxinput" class="vsm-link"><span
+                            class="vsm-title">Read Input</span></a>
+                      </div>
+                      <div class="vsm-item">
+                        <a routerLinkActive="active-item" routerLink="/defaultfocus" class="vsm-link"><span
+                            class="vsm-title">Default Focus</span></a>
+                      </div>
+                      <div class="vsm-item">
+                        <a routerLinkActive="active-item" routerLink="/dialogexample" class="vsm-link"><span
+                            class="vsm-title">Pass Data to Dialog</span></a>
+                      </div>
+                      <!-- <div class="vsm-item">
+                        <a routerLinkActive="active-item" routerLink="/reactiveform-example2" class="vsm-link"><span
+                            class="vsm-title">Nester Form Group</span></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-panel>        
               <ngb-panel id="pagesMenu">
                 <ng-template ngbPanelHeader>
                   <button ngbPanelToggle class="vsm-link">
@@ -65,6 +96,26 @@
                         <a routerLinkActive="active-item" routerLink="/listexample" class="vsm-link"><span
                             class="vsm-title">List Data</span></a>
                       </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-panel>
+
+              <ngb-panel id="PrimengDataTable">
+                <ng-template ngbPanelHeader>
+                  <button ngbPanelToggle class="vsm-link">
+                    <i class="vsm-icon pe-7s-browser"></i>
+                    <span class="vsm-title">Primeng DataTable</span>
+                    <i class="vsm-arrow"></i>
+                  </button>
+                </ng-template>
+                <ng-template ngbPanelContent>
+                  <div class="vsm-dropdown">
+                    <div class="vsm-list">
+                      <div class="vsm-item">
+                        <a routerLinkActive="active-item" routerLink="/datatableexample" class="vsm-link"><span
+                            class="vsm-title">Data Table</span></a>
+                      </div>                      
                     </div>
                   </div>
                 </ng-template>

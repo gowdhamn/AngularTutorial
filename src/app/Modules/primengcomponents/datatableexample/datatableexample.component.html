@@ -1,0 +1,23 @@
+<div class="main-card mb-3 card">
+    <div class="card-header">
+        <div class="card-header-title font-size-lg text-capitalize font-weight-normal">PrimeNG - Datatable</div>
+    </div>
+    <div class="card-body">
+        <p-table [columns]="cols" [value]="data">
+            <ng-template pTemplate="header" let-columns>
+                <tr>
+                    <th *ngFor="let col of columns">
+                        {{col.header}}
+                    </th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-rowData let-columns="columns">
+                <tr>
+                    <td *ngFor="let col of columns">
+                        {{rowData[col.field]}}
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>

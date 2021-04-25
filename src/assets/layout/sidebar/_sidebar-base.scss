@@ -70,7 +70,7 @@ $sidebar-box-shadow: 7px 0 60px rgba(0, 0, 0, 0.05);
     background: transparent;
     position: relative;
     display: block;
-    padding: 0.1rem 0;
+    // padding: 0.1rem 0;
 
     .card-body {
       padding: 0;
@@ -108,7 +108,7 @@ $sidebar-box-shadow: 7px 0 60px rgba(0, 0, 0, 0.05);
     display: block;
     line-height: 2.4rem;
     height: 2.4rem;
-    padding: 0 1.5rem 0 45px;
+    padding: 0 0.6rem 0 45px;
     position: relative;
     border-radius: .25rem;
     color: $gray-700;
@@ -203,7 +203,7 @@ $sidebar-box-shadow: 7px 0 60px rgba(0, 0, 0, 0.05);
     }
 
     .vsm-list {
-      padding: ($layout-spacer-x / 2) 0 ($layout-spacer-x / 2) $layout-spacer-x * 1.5;
+      padding: ($layout-spacer-x / 2) 0 ($layout-spacer-x / 2) (($layout-spacer-x * 1.5)+1);
     }
 
     .vsm-item {

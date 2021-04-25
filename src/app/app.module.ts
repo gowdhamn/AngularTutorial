@@ -44,6 +44,14 @@ import { Rfexample2Component } from './Modules/ReactiveForms/rfexample2/rfexampl
 import { PostexampleComponent } from './Modules/ApiForms/postexample/postexample.component';
 import { ListexampleComponent } from './Modules/ApiForms/listexample/listexample.component';
 import { UpdateexampleComponent } from './Modules/ApiForms/updateexample/updateexample.component';
+import { ReadtextboxinputComponent } from './Modules/FormInputs/readtextboxinput/readtextboxinput.component';
+import { DefaultfocusComponent } from './Modules/FormInputs/defaultfocus/defaultfocus.component';
+import { MaterialModule } from './material-module';
+import { PassDatatoDialogComponent } from './Modules/FormInputs/pass-datato-dialog/pass-datato-dialog.component';
+import { ExampleDialogComponent } from './Modules/FormInputs/pass-datato-dialog/example-dialog/example-dialog.component';
+
+import {TableModule} from 'primeng/table';
+import { DatatableexampleComponent } from './Modules/primengcomponents/datatableexample/datatableexample.component';
 
 // DEMO PAGES
 
@@ -78,6 +86,11 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     PostexampleComponent,
     ListexampleComponent,
     UpdateexampleComponent,
+    ReadtextboxinputComponent,
+    DefaultfocusComponent,
+    PassDatatoDialogComponent,
+    ExampleDialogComponent,
+    DatatableexampleComponent,
 
   ],
   imports: [
@@ -100,6 +113,8 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     // Charts
 
     ChartsModule,
+    MaterialModule,
+    TableModule
   ],
   providers: [
     {
